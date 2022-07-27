@@ -1,0 +1,41 @@
+.btn-bg {
+  background-color: #289bde;
+  transition: 0.2s ease-in;
+}
+
+.btn-bg:hover {
+  background-color: #006eae;
+}
+
+.btn-text-clr,
+.price-text-clr {
+  color: #289bde;
+}
+
+.btn-inverse:hover {
+  background-color: #289bde;
+  color: #fff;
+}
+
+.carousel-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.5)
+  );
+  background-size: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
