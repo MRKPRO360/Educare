@@ -73,11 +73,26 @@ section {
   object-fit: cover;
 }
 
+.p-huge {
+  padding: 1.25rem;
+}
+
 /* Breakpoints  */
 
 /* Below 575 px */
 @media only screen and (max-width: 35.9375em) {
+  section {
+    margin: 2rem auto 0 !important;
+  }
   .fs-6 {
     font-size: 0.8rem !important;
+  }
+}
+
+/* Upto 576px */
+
+@media only screen and (min-width: 36em) {
+  .p-huge {
+    padding: 8.125rem 8.125rem 8.125rem 0;
   }
 }
