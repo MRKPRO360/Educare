@@ -71,6 +71,23 @@ body {
   overflow-x: hidden;
 }
 
+footer {
+  margin: 8.125rem auto 0 !important;
+  background-color: #161616;
+}
+
+footer p {
+  color: #e8e8e8;
+}
+
+footer a {
+  transition: 0.2s ease-in-out;
+}
+
+footer a:hover {
+  color: #289bde !important;
+}
+
 .my-huge {
   margin: 3.5625rem auto 5.625rem;
 }
@@ -80,8 +97,16 @@ body {
   object-fit: cover;
 }
 
+.fs-light {
+  font-size: 0.9375rem;
+}
+
 .p-huge {
   padding: 1.25rem;
+}
+
+.py-huge {
+  padding: 8rem 0;
 }
 
 /* Breakpoints  */
