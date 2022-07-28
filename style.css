@@ -92,11 +92,6 @@ footer a:hover {
   margin: 3.5625rem auto 5.625rem;
 }
 
-.sized-img {
-  width: 12.5rem !important;
-  object-fit: cover;
-}
-
 .fs-light {
   font-size: 0.9375rem;
 }
@@ -107,6 +102,15 @@ footer a:hover {
 
 .py-huge {
   padding: 8rem 0;
+}
+
+.sized-img {
+  min-width: calc(100% - 0vw);
+  object-fit: cover;
+}
+
+.sized-img img {
+  min-width: 100% !important;
 }
 
 /* Breakpoints  */
@@ -126,5 +130,9 @@ footer a:hover {
 @media only screen and (min-width: 36em) {
   .p-huge {
     padding: 8.125rem 8.125rem 8.125rem 0;
+  }
+
+  .sized-img {
+    min-width: 12.5rem !important;
   }
 }
