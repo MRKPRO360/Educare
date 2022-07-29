@@ -40,6 +40,21 @@
   color: #1d1d1d;
 }
 
+.icon {
+  width: 2.9375rem;
+  height: 2.9375rem;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.icon-1 {
+  background-color: #e5f6ff;
+}
+
+.icon-2 {
+  background-color: #289bde;
+}
+
 .carousel-item::after {
   content: "";
   position: absolute;
@@ -98,6 +113,10 @@ footer a:hover {
 
 .p-huge {
   padding: 1.25rem;
+}
+
+.p-xhuge {
+  padding: 2.5rem;
 }
 
 .py-huge {
